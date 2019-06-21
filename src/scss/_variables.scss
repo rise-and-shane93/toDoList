@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Abel:400,700|Tauri');
+
+//colors
+$midnight: #0B0C10;
+$darkGrey: lighten($midnight, 12%);
+$lightGrey: desaturate(lighten($midnight, 75%), 20%);
+$lightTeal: #66FCF1;
+$darkTeal: desaturate(darken($lightTeal, 31%), 35%);
+$header-bg: #0B0C10;
+
+//Header variables
+$menu-width: 250px!default;
+
+
+//breakpoint values
+$breakpoints: (
+    'sm': 450px,
+    'md': 768px,
+    'lg': 1024px,
+    'xl': 1200px
+);
