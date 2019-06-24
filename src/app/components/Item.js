@@ -6,7 +6,7 @@ class Item extends Component {
     // }
 
     componentWillUnmount() {
-        if (this.props.lengthMinusOne <= 2) {
+        if (this.props.lengthMinusOne <= 5) {
             this.props.showHideFunc(false);
         }
     }
