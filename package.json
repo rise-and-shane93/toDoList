@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rise-and-shane93.github.io/toDoList",
+  "homepage": "https://rise-and-shane93.github.io/toDoList/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
