@@ -29,7 +29,7 @@ footer {
     }
 }
 
-#item {
+.item {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,4 +77,21 @@ footer {
         margin: 0;
     }
     @include flexBox(row, space-around, null);
+}
+
+#showMore {
+    h3 {
+        text-align: center;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
